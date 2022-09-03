@@ -1,0 +1,18 @@
+{
+    "sourceFile": "to do list/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1662184079715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1662184079715,
+            "name": "Commit-0",
+            "content": "div{\r\n    width: 70vw;\r\n    background-color: grey;\r\n    color: white;\r\n    padding: 12px;f\r\n    border-radius: 12px;\r\n    margin: auto;\r\n    text-align: center;\r\n}\r\nul{\r\n    list-style-type: none;\r\n    padding: 0%;\r\n    margin:  24px auto;\r\n}\r\nli{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    padding: 0 12px ;\r\n    border:  2px solid black;\r\n    background-color:  #00557f;\r\n    border-radius:  5px;\r\n    margin:  5px;\r\n}\r\n h1{\r\n    font-size:  36px;\r\n }\r\n h2{\r\n    margin-right: 24px;\r\n }\r\n  input{\r\n    font-size: 24px;\r\n    padding:  8px 8px;\r\n    outline:  none ;\r\n    width:  50%;\r\n\r\n  }\r\n  .delete-button {\r\n    background: none;\r\n    color: white;\r\n    border: 1px solid transparent;\r\n    border-radius: 100%;\r\n    height: 24px;\r\n    width: 24px;\r\n    font-size: 14px;\r\n    font-weight: bold;\r\n    padding: 0;\r\n    transition: 0.5s;\r\n    cursor: pointer;\r\n}\r\n#add-button {\r\n    font-size: 24px;\r\n    padding: 8px 12px;\r\n    border-radius: 8px;\r\n    background-color: lightblue;\r\n    transition: 0.5s;\r\n    cursor: pointer;\r\n  }\r\n\r\n.delete-button:hover {\r\n    border-color: white;\r\n    transform: scale(1.2);\r\n}\r\n#add-button:disabled{\r\n    background-color: revert;\r\n    cursor: default;\r\n}\r\n.wrapper{\r\n    width: 70vw;\r\n    margin: auto;\r\n    text-align: center;\r\n    background-color: grey;\r\n    color: white;\r\n}\r\n"
+        }
+    ]
+}
